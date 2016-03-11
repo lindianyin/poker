@@ -15,7 +15,7 @@ enum emPokerType
 	BlackJoker,//小王 //52
 	RedJoker, //大王 //53
 };
-
+//get poketype
 inline emPokerType getPokerType(int poker)
 {
 	if(BlackJoker == poker)
